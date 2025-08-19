@@ -4,6 +4,9 @@
  */
 package clinicapp;
 
+import javax.swing.JFrame;
+import java.awt.Color;
+
 /**
  *
  * @author HASSNAT
@@ -15,6 +18,13 @@ public class ClinicApp {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        mainframe frm=new mainframe();
+        frm.getContentPane().setBackground(Color.cyan);
+        frm.setTitle("hasnat ashraf");
+        frm.setSize(800,600);
+        frm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frm.setVisible(true);
+        
     }
     
 }
